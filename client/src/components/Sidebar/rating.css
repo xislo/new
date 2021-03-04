@@ -1,0 +1,23 @@
+.rating-hollow {
+  color: #adb5bd;
+  font-size: 20px;
+  margin: 0 2.7vw;
+}
+.rating-full {
+  color: #172b4d;
+  font-size: 20px;
+  margin: 0 2.7vw;
+}
+.rating-number {
+  color: #f8f8f8;
+  font-size: 20px;
+  margin: 0 2.9vw;
+}
+@media (min-width: 992px) {
+  .overflow-hidden-lg {
+    overflow: hidden !important;
+  }
+  .bg-lg-light {
+    background-color: #f8f8f8 !important;
+  }
+}

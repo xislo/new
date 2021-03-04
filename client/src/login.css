@@ -1,0 +1,155 @@
+.main-title h1{
+    font-weight: 700 !important;
+}
+
+.main-title{
+    display: table;
+    margin: auto;
+    color: #504DE4;
+    
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.main-form{
+    margin: auto;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    max-width: 500px;
+    padding: 48px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.form-element{
+    padding-bottom: 15px;
+    max-height: 87px;
+}
+.form-down{
+    padding-bottom: 15px;
+    max-height: 106px;
+}
+.reset-msg{
+    color: #504DE4;
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.err-msg{
+    color: #ff0000;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-label {
+    color: #3c4257;
+    padding-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600 !important
+}
+
+.forgot-message{
+    line-height: 20px;
+    font-size: 14px;
+    
+}
+
+.social-logins{
+    display: block;
+    text-align: left;
+}
+
+.social-connection{
+    padding: 2px 10px 2px 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#google-login{
+    text-decoration: none;
+    color: #70736d;
+}
+
+.google-box {
+    background-color: #fff;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.form-input{
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 12px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #d3d3d3;
+    outline: none;
+    border-radius: 4px;
+}
+
+.forgot-password{
+    color: #504DE4 ;
+    font-size: 14px;
+    float: right;
+}
+
+.login-message{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1B1F34;
+    word-spacing: -1px;
+}
+
+.login-button{
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #504DE4;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.login-button:hover {
+    opacity: .8;
+}
+
+.bottom-signup-link{
+    padding-top: 30px;
+    display: table;
+    margin: auto;
+    color:  #504DE4 !important;
+}
+
+@media only screen and (max-width: 667px) {
+    .main-title {
+        padding-top: 20px;
+        font-size: 24px;
+    }
+    .main-title h1 {
+        margin-top: 0;
+        font-weight:800;
+        margin-bottom: 10px;
+    }
+    .main-form {
+        background: transparent;
+        box-shadow: none;
+        padding: 0 20px;
+    }
+    form .form-element {
+        padding-bottom: 0;
+    }
+    .social-connection {
+        background-color: #fff;
+    }
+
+}
